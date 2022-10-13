@@ -32,15 +32,15 @@ const puppeteer = require('puppeteer');
 
         }
     
-    async function Key(xpath,text) {
+    // async function Key(xpath,text) {
 
-        await page.waitForXPath(xpath)
-        s = await page.$x(xpath)
-        s = await page.$eval('#id', el => el,valuse = )
-        s = s[0]
-        await s.type(text)
+    //     await page.waitForXPath(xpath)
+    //     s = await page.$x(xpath)
+    //     s = await page.$eval('#id', el => el,valuse = )
+    //     s = s[0]
+    //     await s.type(text)
 
-        }
+    //     }
 
     async function popupClose() {
 
